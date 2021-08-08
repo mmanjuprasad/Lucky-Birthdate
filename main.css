@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap');
+
+:root{
+    --primary : #0788a8 ;
+    --secondary: #efeaf8 ;
+}
+
+body{
+    background-color: var(--primary);
+    color: var(--secondary);
+    font-family: 'STIX Two Text', serif;
+
+}
+h1 {
+    text-align: center;
+    margin: 2rem;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+}
+
+input, label{
+    display: block;
+
+}
+
+input{
+    margin-bottom: 0.5rem;
+    width: 90%;
+}
+
+#check-number{
+    display:block;
+    margin-top: 1rem;
+    margin: auto;
+    background: var(--secondary);
+    color: var(--primary);
+    border-color: var(--secondary);
+    border-width: medium;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}
+
+#
